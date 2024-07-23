@@ -7,41 +7,15 @@ public class resta {
 
     public static void main (String [] args){
         Scanner entrada = new Scanner(System.in);
-        int resta;
-     System.out.println("porfavor ingrese el numero 1");
-     int n1 = entrada.nextInt();
-        System.out.println("porfavor ingrese el numero 2");
-        int n2 = entrada.nextInt();
-        resta = n1 - n2;
-        System.out.println("señor usuario su resultado es: " + resta);
+        int resta =0, op,n=0;
+        int i=0;
+        System.out.println("cuantos numeros desea restar");
+        op = entrada.nextInt();
+        for( i = 0 ; i < op; i++) {
+            System.out.println("porfavor ingrese el numero" + i );
+            n = entrada.nextInt();
+            resta = resta - n;}
+            System.out.println("señor usuario su resultado es: " + resta);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-}
+        }}
